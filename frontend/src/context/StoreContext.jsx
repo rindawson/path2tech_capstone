@@ -4,10 +4,9 @@ import axios from "axios";
 export const StoreContext = createContext(null)
 
 const StoreContextProvider = (props) => {
-
+   
    const [cartItems, setCartItems] = useState({});
-   // originally was http://localhost:4000
-   const url = "https://theflyingsaucer-backend.netlify.app";
+   const url = "http://localhost:4000";
    const [token, setToken] = useState("");
    const [food_list,setFoodList] = useState([]);
 

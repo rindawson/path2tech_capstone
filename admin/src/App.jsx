@@ -9,7 +9,7 @@ import { ToastContainer, toast } from 'react-toastify';
 
 const App = () => {
 
-  const url = "https://theflyingsaucer-backend.netlify.app"
+  const url = "http://localhost:4000"
 
   return (
     <div>
